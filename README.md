@@ -139,10 +139,29 @@ Sonatype (aka nexus) OSS index (scan secu)
 
 > Vendredi 22/04/2022
 
-##
->
+## Spring MVC -> Spring Webflux
+> Mathilde et Hugo
 
-###
+### Reactor
+2015
+
+### Pros & cons
+Jointures/ORM -> KO
+Transactions -> OK
+HttpRequest -> OK
+Cache -> ~ cache in cache
+
+### Conclusion
+Spring webflux peut être utilisé dans certains cas (mais pas tous)
+Comparatif avec Node?
+Limit de webflux vs threads virtuels
+
+----
+
+## Doctolib XXL Database
+> 
+
+### 
 
 ----
 
