@@ -154,8 +154,8 @@ Cache -> ~ cache in cache
 
 ### Conclusion
 Spring webflux peut être utilisé dans certains cas (mais pas tous)
-Comparatif avec Node?
-Limit de webflux vs threads virtuels
+Comparatif avec Node? à investiguer
+Limit de webflux vs threads virtuels à venir
 
 ----
 
@@ -200,6 +200,7 @@ puis data
 ### Cypher suites
 Cf détail du certificat
 ![TLS 1.2 cypher](README/tls-cypher.jpg)
+![TLS 1.3 cypher](README/tls13.jpg)
 Diffie Hellman requis pour l'échange clef dans TLS 1.3
 Cet algo permet de sécuriser l'échange de clef
 AEAD: grâce à GCM (chiffrement et intégrité fait au même moment)
@@ -213,9 +214,49 @@ système basé sur la confiance (! mais il faut maîtriser les certificats root 
 ----
 
 ## Signature électronique
-> Vincent Galloy & 
+> Vincent Galloy & Arnaud Jeansen
 
-### 
+Développeurs chez Quicksign
+Cadre rêglementaire européen (les rêgles sont différentes aux US, en Afrique, ...)
 
-###
+### Signature
+identification (qui a signé) + intégrité (le document n'a jamais été altéré)
+-> crypto required (sha256, ...)
+SSL et autorité de certification permettent  de s'assurer qu'aucun tier ne veut altérer l'identification
+Standard internet: CMS
+Standard européen: CAdES (CMS Avanced ES)
+Plusieurs niveaux de signature électronique (baseline, temporal, long term, availability)
+
+### Signature en java
+Lib édition pdf java utilisée chez QuickSign: Apache PdfBox (d'autres solutions existent)
+NB: PdfBox ne gère pas la signature mais fourni juste une interface pour le faire
+Lib pour sécuriser la signature en Java: BouncyCastle
+
+----
+
+## Microservices et cohérence des données
+> JF James @Worldline
+
+Comment distribuer des transactions sur différentes microservices (transaction, compensation, ...)?
+(et de manière performante)
+
+![Solutions](README/ms1.jpg)
+
+### Microprofile LRA (synchrone)
+![Microprofile](README/ms2.jpg)
+Annotation principales: @LRA, @Compensate, @Complete
+permettant de gérer les transactions distribuées sur plusieurs ms de manière propre
+
+### Eventuate (asynchrone)
+![Eventuate](README/ms3.jpg)
+Méchanisme CDC:
+scrute la tale des messages et les gère sur une transaction classique
+c'est lui qui pousse les messages dans Kafka
+(on obtient des messages kafka "transactionnels")
+
+Outil pour regarder des messages Kafaka: kowl
+
+### Conclusion/takeaway
+![Conclusions](README/ms4.jpg)
+![Sources](README/ms5.jpg)
 
