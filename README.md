@@ -5,7 +5,8 @@ Devoxx 2022 notes
 
 ## Micro Frontends REX - Diviser pour mieux régner !
 > Hugo CHIAVENUTO
-[https://cfp.devoxx.fr/2022/talk/YCJ-0118/Micro_Frontends_REX_-_Diviser_pour_mieux_regner_!]
+
+(Micro Frontends REX)[https://cfp.devoxx.fr/2022/talk/YCJ-0118/Micro_Frontends_REX_-_Diviser_pour_mieux_regner_!]
 
 équipe: 3 apps, 15 devs
 Manfred Steyer (dev angular)
@@ -159,9 +160,62 @@ Limit de webflux vs threads virtuels
 ----
 
 ## Doctolib XXL Database
-> 
+> Bertarnd Paquet & David Gageot
+
+### Scaling database
+Actuel: 25 TB largest aws (aurora) db image
+
+### Spanner
+![Spanner](README/spanner.jpg)
+
+### Citus MX
+![Citus](README/citus.jpg)
+
+### Yugabyte
+![Yugabyte](README/yugabyte.jpg)
+
+### Solution
+(comment permettre au développeur d'utiliser ce type d'outillage pour bosser)
+![Take away](README/doctolib-takeaway.jpg)
+Foreign Data Wrappers -> bonne solution pour le scaling
+
+### Questions
+Partition -> sujet complémentaire qui peut solutionné partiellement
+Anonymistation de la db: trigger sur les champs qui sont anonymisé par hash/overwrite
+
+----
+
+## TLS / OpenSSL
+> Mathieu Humbert (Accenture)
+
+### TLS
+Confidentialité: chiffrage
+Authentification: certificate
+Intégrité: checksum (MAC)
+
+Protocol:
+TLS handswhake (cypher suites)
+puis data
+
+### Cypher suites
+Cf détail du certificat
+![TLS 1.2 cypher](README/tls-cypher.jpg)
+Diffie Hellman requis pour l'échange clef dans TLS 1.3
+Cet algo permet de sécuriser l'échange de clef
+AEAD: grâce à GCM (chiffrement et intégrité fait au même moment)
+
+Attention: en TLS 1.2 certain cypher suites ne sont pas forcément tous sécu
+
+### Certificat
+format X509 avec clef publique + signature certifiée
+système basé sur la confiance (! mais il faut maîtriser les certificats root et intermédiaires)
+
+----
+
+## Signature électronique
+> Vincent Galloy & 
 
 ### 
 
-----
+###
 
