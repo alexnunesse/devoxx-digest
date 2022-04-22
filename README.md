@@ -1,10 +1,11 @@
 # devoxx-2022
 Devoxx 2022 notes
 
+> Jeudi 21/04/2022
+
 ## Micro Frontends REX - Diviser pour mieux régner !
 > Hugo CHIAVENUTO
-> [https://cfp.devoxx.fr/2022/talk/YCJ-0118/Micro_Frontends_REX_-_Diviser_pour_mieux_regner_!]
-> 10h45: 241 - Paris
+[https://cfp.devoxx.fr/2022/talk/YCJ-0118/Micro_Frontends_REX_-_Diviser_pour_mieux_regner_!]
 
 équipe: 3 apps, 15 devs
 Manfred Steyer (dev angular)
@@ -58,7 +59,7 @@ analysis oattern
 TDD Outside/In
 
 ### Take away
-![](README/MDD.png)
+![MDD](README/MDD.jpg)
 Blue book Domain-Driven Design
 
 
@@ -92,7 +93,7 @@ Multi-thread the build by default
 Probably wont support the wrapper
 
 ### Take away
-![](README/mvn4.png)
+![mvn4](README/mvn4.jpg)
 Release date unknown
 
 ----
@@ -101,8 +102,10 @@ Release date unknown
 > k8s graphical interface open source (talk by Mirantis)
 
 Kubernetes IDE number 1
--> bonne outil pour démarrer avec kube
+-> bon outil pour démarrer avec kube
 -> goto solution for Carrefour
+
+![Lens](README/lens.jpg)
 
 ----
 
@@ -124,13 +127,22 @@ Nice aswell: @DyanmicTest, ...
 use junit config files
 
 ### Link to sources
-{screen3}
-
-
+![Junit5](README/junit5.jpg)
 
 ----
 
 ## Sujets transverses
 Sujet pour la formation devops 1: gitpod
 Sonatype (aka nexus) OSS index (scan secu)
+
+----
+
+> Vendredi 22/04/2022
+
+##
+>
+
+###
+
+----
 
