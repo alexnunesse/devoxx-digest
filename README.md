@@ -165,6 +165,8 @@ use junit config files
 ### Link to sources
 ![Junit5](README/junit5.jpg)
 
+https://github.com/mikemybytes/the-unknowns-of-junit5/blob/main/talk-resources.md  
+
 ----
 
 ## Sujets transverses
@@ -320,3 +322,5 @@ Outil pour regarder des messages Kafka: kowl
 ### Conclusion/takeaway
 ![Conclusions](README/ms4.jpg)
 ![Sources](README/ms5.jpg)
+
+https://github.com/jefrajames  
