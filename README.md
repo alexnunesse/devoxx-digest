@@ -9,7 +9,7 @@ Devoxx 2022 notes
 Note: 5/5  
 Commentaire: Super talk, REX intéressant, sujet à creuser  
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/YCJ-0118/Micro_Frontends_REX_-_Diviser_pour_mieux_regner_!)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/YCJ-0118/Micro_Frontends_REX_-_Diviser_pour_mieux_regner_!)  
 [Lien youtube](https://www.youtube.com/watch?v=4B24WrH9Aww)
 
 équipe: 3 apps, 15 devs  
@@ -47,7 +47,7 @@ Gestion des modules angular: galère pour l'instant
 Note: 2/5  
 Commentaire: Des concepts mais ça manque de concret  
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/UDV-2868/Model-Driven_Design)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/UDV-2868/Model-Driven_Design)  
 [Lien youtube](https://www.youtube.com/watch?v=Mnt1N8T7xEA)
 
 Problème d'interdépendance sur le schéma DB  
@@ -81,7 +81,7 @@ Blue book Domain-Driven Design
 Note: 4/5
 Commentaire: Des fonctionnalités intéressantes qui vont arriver, bien d'avoir des rappels sur maven
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/MPH-2660/What's_cooking_in_Maven%3F)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/MPH-2660/What's_cooking_in_Maven%3F)  
 [Lien youtube](https://www.youtube.com/watch?v=lT6FFbTfvXo)
 
 ### Maven wrapper
@@ -118,7 +118,7 @@ Release date unknown
 Note: 4/5  
 Commentaire: Je découvre cet outil aprés avoir galérer 1an avec kube en console, à installer dès lundi
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/RAX-2612/Eliminez_la_complexite_de_Kubernetes_avec_LENS_!)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/RAX-2612/Eliminez_la_complexite_de_Kubernetes_avec_LENS_!)  
 [Lien youtube](https://www.youtube.com/watch?v=DgibXv6h884)
 
 Kubernetes IDE number 1  
@@ -140,7 +140,7 @@ Note: 1/5
 Commentaire: Approche et message franchement perturbant  
 Il faut bien sûr faire des UT, des IT et des tests E2E intelligemment
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/CYM-1712/S'affranchir_de_la_Pyramide_des_Tests)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/CYM-1712/S'affranchir_de_la_Pyramide_des_Tests)  
 [Lien youtube](https://www.youtube.com/watch?v=QL0HBeIAny0)
 
 ----
@@ -151,7 +151,7 @@ Il faut bien sûr faire des UT, des IT et des tests E2E intelligemment
 Note: 5/5  
 Commentaire: Super talk, dynamique ! J'avais oublié toutes ces supers features, ça donne des idées !  
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/LKZ-8754/The_unknowns_of_JUnit_5)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/LKZ-8754/The_unknowns_of_JUnit_5)  
 [Lien youtube](https://www.youtube.com/watch?v=V6_rIa30YzE)
 
 ### Data table tests
@@ -189,7 +189,7 @@ Sonatype (aka nexus) OSS index (scan secu)
 Note: 5/5  
 Commentaire: On voit qu'ils sont solides sur le sujet et ils présentent clairement les pros and cons  
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/RKZ-1909/Migrer_de_Spring_MVC_a_Spring_Web_Flux)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/RKZ-1909/Migrer_de_Spring_MVC_a_Spring_Web_Flux)  
 [Lien youtube](https://www.youtube.com/watch?v=QSH-vJyh9as)
 
 ### Reactor
@@ -214,7 +214,7 @@ Limit de webflux vs threads virtuels à venir
 Note: 4/5  
 Commentaire: Comparatif intéressant, même si l'architecture de Doctolib me fait trés peur  
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/KCB-5237/Doctolib_a_besoin_d'une_base_de_donnees_plus_puissante._Ok,_mais_laquelle%3F)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/KCB-5237/Doctolib_a_besoin_d'une_base_de_donnees_plus_puissante._Ok,_mais_laquelle%3F)  
 [Lien youtube](https://www.youtube.com/watch?v=1PtPVpFWtKQ)
 
 ### Scaling database
@@ -246,7 +246,7 @@ Anonymisation de la db: trigger sur les champs qui sont anonymisé par hash/over
 Note: 4/5  
 Commentaire: Speaker très pro, sujet un soporifique mais important  
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/NXR-6022/Mieux_maitriser_TLS,_OpenSSL_et_les_certificats)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/NXR-6022/Mieux_maitriser_TLS,_OpenSSL_et_les_certificats)  
 [Lien youtube](https://www.youtube.com/watch?v=P6brMpIZaOo)
 
 ### TLS
@@ -281,7 +281,7 @@ Note: 4/5
 Commentaire: Talk qui va droit au but et intéressant si on a un intérêt pour la signature électronique 
 (sinon passer son chemin)
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/NQU-4965/La_signature_electronique_vue_par_des_developpeurs_Java.)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/NQU-4965/La_signature_electronique_vue_par_des_developpeurs_Java.)  
 [Lien youtube](https://www.youtube.com/watch?v=OxejZ2VyEek)
 
 Développeurs chez Quicksign  
@@ -308,7 +308,7 @@ Lib pour sécuriser la signature en Java: BouncyCastle
 Note: 4/5  
 Commentaire: Cas concret, outils intéressants mais sujet très, très dense  
 
-[Lien devoxx](https://cfp.devoxx.fr/2022/talk/JSV-6705/Architecture_microservices_et_coherence_des_donnees_:_mais_on_fait_comment_pour_de_vrai_%3F)
+[Lien devoxx](https://cfp.devoxx.fr/2022/talk/JSV-6705/Architecture_microservices_et_coherence_des_donnees_:_mais_on_fait_comment_pour_de_vrai_%3F)  
 [Lien youtube](https://www.youtube.com/watch?v=7HC6ZfSy8M4)
 
 Comment distribuer des transactions sur différentes microservices (transaction, compensation, ...)?  
