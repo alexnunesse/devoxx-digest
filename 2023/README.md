@@ -30,7 +30,8 @@ fine tuning: relire chaque jour la veille / 1 semaine / 1 mois
 ### Avis perso
 Sujet intéressant car on perd souvent de l'information, intéressant d'avoir un rex d'une développeuse avec 20 ans d'XP en Java.
 
--- 
+---
+
 ## Loi de Conway
 par Julien Topçu  
 [Description](https://cfp.devoxx.fr/2023/talk/ZQW-2568/Loi_de_Conway_:_lorsque_les_bonnes_pratiques_ne_suffisent_pas)
@@ -44,7 +45,8 @@ Pas d'exemple concret et de cas d'usage, plutot une sensibilisation au sujet.
 
 4/5
 
--- 
+---
+
 ## Java 19 & 20
 par JM Doudoux  
 [Description](https://cfp.devoxx.fr/2023/talk/NHF-2060/Les_nouveautes_de_Java_19_et_20)
@@ -89,7 +91,7 @@ Attention en Septembre prochain on passe à la LTS Java 21 !
 
 4/5
 
--- 
+--- 
  
 ## Revisiting design patterns after 20
 by Edson Yanaga  
@@ -106,7 +108,7 @@ Bien sympa d'avoir un peu de livecoding au devoxx, des exemples concrets, pas ma
 
 4/5
 
--- 
+--- 
 
 ## Les dessous des GC
 par Jean-Philippe BEMPEL  
@@ -146,7 +148,7 @@ Talk technique, qui ouvre pas mal de porte, structure du talk complexe, mais le 
 
 4/5
 
--- 
+--- 
 
 ## Clean Code
 by Sonar Cloud  
@@ -171,7 +173,7 @@ ne pas hésiter à remonter le feedback à sonar qui en est friand
 Talk général, intéressant si on découvre complétement le sujet, perte de temps si on utilise déjà sonar et qu'on code correctement.
 Outil excellent, talk moins bon. 1/5
 
--- 
+--- 
 
 ## Springboot 3
 by Josh Long (Spring)  
@@ -197,7 +199,7 @@ Showtime !!!
 
 5/5
 
--- 
+--- 
 
 ## Quickie améliorer sa webapp angular
 by Camille (takima)  
@@ -216,7 +218,7 @@ TOP !
 
 5/5
 
--- 
+--- 
 
 ## Testing concurrent data structures on JVM
 by Maria Sokolova (JetBrains)  
@@ -233,7 +235,7 @@ Talk très technique, mais c'est avec cela qu'on apprend le plus
 
 4/5
 
--- 
+--- 
 
 ## PostreSQL passez à la vitesse supérieur
 par Emmanuel Rémy (Casden)  
@@ -263,7 +265,7 @@ Présentation simple et efficace avec bcp de livecoding, au top
 
 5/5
 
--- 
+--- 
 
 ## Découvertes sur les stands
 
@@ -280,11 +282,4 @@ check plugin xrayvjfrog intellij
 release bundle v2 release lifecycle management soon  
 intégration ok avec gitlab + frogbot
 
--- 
-
-## Checklist retour Carrefour
-- story sur optim angular (cf talk Camille)
-- point tests e2e avec Simon CHampenois sur l'outil Gravity
-- prévoir montée Java 21, quelles optimisations pour Justine?
-- retour sur les fonctionnalitées de Postgres à creuser: ano, JSON, function, ...
-
+---
